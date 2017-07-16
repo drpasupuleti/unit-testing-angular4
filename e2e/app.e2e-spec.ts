@@ -1,6 +1,6 @@
 import { Angular2KarmaPage } from './app.po';
 
-describe('angular2-karma App', () => {
+describe('angular4-karma App', () => {
   let page: Angular2KarmaPage;
 
   beforeEach(() => {
