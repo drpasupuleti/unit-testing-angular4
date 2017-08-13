@@ -1,11 +1,11 @@
 import {Component} from '@angular/core';
-import {QuickStartService} from '../quicktart/quickstart-service';
+import {TestQuickStartService} from '../quicktart/test.quickstart-service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [QuickStartService]
+  providers: []
 })
 export class AppComponent {
   title = 'app';
